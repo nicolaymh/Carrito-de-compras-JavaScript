@@ -1,0 +1,147 @@
+body{
+    box-sizing: border-box;
+    background-color:  #e0d4d47a;    
+}
+.contenedor{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+h2{
+    text-align: center; 
+    flex: 0 1 100%;   
+    font-weight: 700;
+    color: #db008d;
+    margin-top: 1rem;
+}
+h3{
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    font-weight: 700;
+    font-size: .9rem;
+    line-height: 1.4rem;
+}
+img{
+    max-width: 100%;
+}
+.contenido{
+    background-color: white;    
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    text-align: center;
+}
+.contenido span{
+    color: #db008d;
+}
+.boton{
+    background-color: #008fd1;
+    color: white;
+    padding: .6rem 2rem;
+    margin-top: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.boton:hover{
+    background-color: #db008d;
+}
+
+@media screen and (min-width:480px){
+    .contenido-articulos{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .entrada{
+        flex: 0 1 calc(50% - 1rem);
+    }
+}
+@media screen and (min-width:768px) {
+    .entrada {
+        flex: 0 1 calc(33% - 1rem);
+    }
+}
+
+tbody img{
+    max-width: 30px;
+}
+.compras ul li{
+    list-style: none;    
+}  
+
+@media screen and (min-width:480px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }  
+}
+th, td{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.submenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.submenu img{
+    max-width: 30px;
+    justify-self: center;
+}
+.contenedor-carrito{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    margin: 0;        
+}
+table{
+    margin: auto;    
+}
+#vaciar-carrito{
+    margin-top: 5px;
+    padding: 3px; 
+    text-align: center;    
+}
+ul{
+    display: inline;
+}
+.compras ul li{    
+    display: grid;    
+}
+
+.ocultar{
+    display: none;
+}
+
+.submenu img:hover{
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.quitar-dispositivo{
+    background-color: #0026d1;
+    color: white;
+    border: 1px solid yellow;
+    padding: 4px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+.quitar-dispositivo:hover{
+    background-color: #db008d;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h4{
+    color: #008fd1;
+}

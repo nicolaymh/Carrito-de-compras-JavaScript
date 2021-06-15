@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="CSS/styles.css">    
+</head>
+<body onload="calcularTotal()">
+    <div class="contenedor">
+
+        <header class="encabezado">
+            <div>
+                <img src="images/front cover sale.png" alt="sales">
+            </div>
+            <div class="compras">                
+                <ul>                     
+                    <li class="submenu">
+                        <img id="imagen-carrito" src="images/cart.png" img-carrito>
+                        <div class="total">
+                            <div>
+                                <h4>Total: </h4>
+                            </div>
+                            <div>
+                                <h5>$<span></span></h5>
+                            </div>        
+                        </div>
+                        <div class="contenedor-carrito ocultar">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Image</th>
+                                        <th>Name</th>
+                                        <th>price</th>
+                                        <th>Quantity</th>                                        
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- <tr>
+                                        <td><img src="images/blender.png"></td>
+                                        <td>Apple Watch</td>
+                                        <td>100</td>
+                                        <td>10</td>                                        
+                                    </tr> -->                                    
+                                </tbody>                                
+                            </table>
+                                <a href="#" id="vaciar-carrito" class="boton">Empty Cart</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>                    
+        </header>
+        
+        <main class="contenido-articulos">
+            <h2>Electronic items</h2>
+            <article class="entrada">
+                <img src="images/blender.png" alt="blender">
+                <div class="contenido">
+                    <h3>Blender Oster</h3>
+                    <p><span>1000 Watts blender</span></p>
+                    <p>price: $<span>25</span></p>
+                    <a href="#" class="boton" id="1">Add to cart</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="images/cellphone.png" alt="cellphone">
+                <div class="contenido">
+                    <h3>Apple Mobile</h3>
+                    <p><span>Apple S3</span></p>
+                    <p>price: $<span>300</span></p>
+                    <a href="#" class="boton" id="2">Add to cart</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="images/lamps.png" alt="lamps">
+                <div class="contenido">
+                    <h3>Genius Lamps</h3>
+                    <p><span>200 watts power</span></p>
+                    <p>price: $<span>40</span></p>
+                    <a href="#" class="boton" id="3">Add to cart</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="images/laptop.png" alt="laptop">
+                <div class="contenido">
+                    <h3>Apple MacBook</h3>
+                    <p><span>MacBook Air</span></p>
+                    <p>price: $<span>100</span></p>
+                    <a href="#" class="boton" id="4">Add to cart</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="images/mouse.png" alt="mouse">
+                <div class="contenido">
+                    <h3>Apple Mouse</h3>
+                    <p><span>Apple Ak1</span></p>
+                    <p>price: $<span>100</span></p>
+                    <a href="#" class="boton" id="5">Add to cart</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="images/photographycamera.png" alt="photographycamera">
+                <div class="contenido">
+                    <h3>Nikon</h3>
+                    <p><span>Nikon D780</span></p>
+                    <p>price: $<span>500</span></p>
+                    <a href="#" class="boton" id="6">Add to cart</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="images/radio.png" alt="radio">
+                <div class="contenido">
+                    <h3>Sony Radio</h3>
+                    <p><span>battery radio</span></p>
+                    <p>price: $<span>80</span></p>
+                    <a href="#" class="boton" id="7">Add to cart</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="images/tv.png" alt="TV">
+                <div class="contenido">
+                    <h3>Goldstar TV</h3>
+                    <p><span>60 inch tv</span></p>
+                    <p>price: $<span>750</span></p>
+                    <a href="#" class="boton" id="8">Add to cart</a>
+                </div>              
+            </article>
+            <article class="entrada">
+                <img src="images/electricfan.png" alt="electricfan">
+                <div class="contenido">
+                    <h3>Casio Electric Fan</h3>
+                    <p><span>Ceiling Electric Fan</span></p>
+                    <p>price: $<span>750</span></p>
+                    <a href="#" class="boton" id="9">Add to cart</a>
+                </div>              
+            </article>
+        </main>
+    </div>    
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
