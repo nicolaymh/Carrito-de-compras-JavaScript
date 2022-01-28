@@ -1,4 +1,4 @@
-# Shopping-Cart-JavaScript :tent: :runner:
+# Shopping-Cart-JavaScript :tent: :tw-2705:
 
 -   Idea for a shopping cart in javascript
 
@@ -12,9 +12,12 @@ Shopping cart example using html, css and javascript. This adds the items and ca
 
 <div>
 <p style = 'text-align:center;'>
-<img src="./images/imagesReadme/screenshot1.PNG" alt="JuveYell" width="300px">
+<img src="./images/imagesReadme/screenshot1.PNG" alt="shoppingcartimage1" width="300px">
+</p>
+</div>
+<div>
 <p style = 'text-align:center;'>
-<img src="./images/imagesReadme/screenshot2.PNG" alt="JuveYell" width="300px">
+<img src="./images/imagesReadme/screenshot2.PNG" alt="shoppingcartimage2" width="300px">
 </p>
 </div>
 
