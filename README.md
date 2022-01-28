@@ -1,4 +1,4 @@
-# Shopping-Cart-JavaScript :tent: :tw-2705:
+# Shopping-Cart-JavaScript :tent tw-2705:
 
 -   Idea for a shopping cart in javascript
 
